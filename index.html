@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>	
+	<link rel="stylesheet" src="Master.css"/>
+</head>
+<style>
+	footer{
+	width: 100%;
+	height: 60px;
+	color: white;
+	display: flex;
+	justify-content:space-around;
+	margin: auto;
+	padding-top: 15px;
+}
+#zoom:hover{
+ 			-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1);
+ 		}	
+
+ 		#link:hover{
+ 			font-size: 25px;
+ 		}
+		#zoom{
+			height: 85%;
+			width: 100%;
+		}
+		.img-fluid{
+			width: 250px;
+			height: 100px;
+			
+		}
+</style>
+<body>
+    <header>
+		<div class="container">
+			<div class="row">
+				<div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+					<img src="img/logo.jpeg" class="img-fluid mx-auto" height="70" width="170">
+				</div>
+    
+                <div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+					<form class="form-inline" style="margin-top: 35px; margin-left: 60px;">
+						<div class="input-group">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search....">
+							<button class="btn btn-success" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+			
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active" style="border-bottom: 3px solid #77b300; font-size: 17px;"><a class="nav-link"  href="index.html" style="width: 120px; text-align: center;">INDEX</a></li>
+					<li class="nav-item"><a class="nav-link"  href="skills.html" style="width: 120px; text-align: center;">SKILLS</a></li>
+					<li class="nav-item"><a class="nav-link"  href="role.html" style="width: 100px; text-align: center;">ROLE</a></li>
+					<li class="nav-item"><a class="nav-link"  href="requirement.html" style="width: 150px; text-align: center;">REQUIREMENT</a></li>
+					<li class="nav-item"><a class="nav-link"  href="salary.html" style="width: 110px; text-align: center;">SALARY</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Contact.html" style="width: 110px; text-align: center;">CONTACT</a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+
+	<section>
+		<div class="container">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+		  	<!-- Indicators -->
+			<ul class="carousel-indicators">
+			    <li data-target="#demo" data-slide-to="0" class="active"></li>
+			    <li data-target="#demo" data-slide-to="1"></li>
+			    <li data-target="#demo" data-slide-to="2"></li>
+			   
+		  	</ul>
+		    <!-- The slideshow -->
+		  	<div class="carousel-inner"style="margin-top:50px;">
+
+		  		<div class="carousel-item active">
+			    	<img src="img/carousel3.jpg" alt="Healthy Eating" width="1100" height="500">
+			    	<div class="carousel-caption">
+    					<h1><a href="index.html" style="color:white">Frontend magic, creating websites like a pro.</a></h1>
+  					</div>
+			    </div>
+
+			    <div class="carousel-item">
+			      	<img src="img/carousel2.jpg" alt="Good Habits for a Healthy Life" width="1100" height="500">
+			      	<div class="carousel-caption">
+    					<h1><a href="index.html" style="color: white;">We take your website to the top.</a></h1>
+  					</div>
+			    </div>
+
+			    <div class="carousel-item">
+			      <img src="img/bg2.jpeg" alt="Yoga for Healthy Living" width="1100" height="500">
+			      	<div class="carousel-caption">
+    					<h1><a href="index.html" style="color:white;">Your website, our passion.</a></h1>
+  					</div>
+			    </div>
+			    
+		  	</div>
+		    <!-- Left and right controls -->
+		  	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    	<span class="carousel-control-prev-icon"></span>
+		  	</a>
+		  	<a class="carousel-control-next" href="#demo" data-slide="next">
+		    	<span class="carousel-control-next-icon"></span>
+		  	</a>
+		</div><br><br>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<h1 style="text-align: center;">- About -</h1>
+				</div><br>
+
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<p style="font-size: 20px; line-height: 28px; text-align: justify;">
+						A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.A front-end developer is a type of software developer who specializes in creating and designing the user interface (UI) and user experience (UX) of websites and web applications. <br><br>
+						Front-end developers may also use libraries and frameworks, such as React, Angular, or Vue.js, to streamline their work and create more sophisticated and interactive UIs. Additionally, they often collaborate with back-end developers, who are responsible for the server-side logic and data management, to ensure seamless integration between the front-end and back-end components of a web application or website. <br><br>
+						Typically, a person enters into the field of front-end development by learning to develop HTML, CSS, and JavaScript which commonly runs in a web browser but can also run in a headless browser, or as compilation input for a native runtime environment.
+					</p>
+				</div>
+			</div>
+			</div>
+
+			<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"  >
+					<a href="skills.html" style="color:  #77b300;">
+						<img id="zoom" src="img/image.webp" class="img-thumbnail img-fluid mx-auto d-block">
+					<h4 id="link" style="text-align: center; color: #77b300;">Design that speaks, code that does the work.</h4>
+				</a>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" >
+					<a href="role.html" style="color:  #77b300;"><img id="zoom" src="img/image1.jpg" class="img-thumbnail img-fluid mx-auto d-block"  >
+					<h4 id="link" style="text-align: center; color:  #77b300;">We bring your vision to life.</h4></a>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<a href="requirement.html" style="color:  #77b300;"><img id="zoom" src="img/image2.jpg" class="img-thumbnail img-fluid mx-auto d-block"  >
+					<h4 id="link" style="text-align: center; color:  #77b300;">Taking your website to the next level.</h4></a>
+				</div>
+			</div><br><br><br>
+
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<a href="salary.html" style="color:  #77b300;"><img id="zoom" src="img/image3.jpg" class="img-thumbnail img-fluid mx-auto d-block" >
+					<h4 id="link" style="text-align: center; color:  #77b300;">All About Your Needs</h4></a>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<a href="role.html" style="color:  #77b300;"><img id="zoom" src="img/image5.jpg" class="img-thumbnail img-fluid mx-auto d-block" >
+					<h4 id="link" style="text-align: center; color:  #77b300;">Creativity and innovation</h4></a>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<a href="skills.html" style="color:  #77b300;"><img id="zoom" src="img/image4.png" class="img-thumbnail img-fluid mx-auto d-block">
+					<h4 id="link" style="text-align: center; color: #77b300;">Where code meets creativity.</h4></a>
+				</div>
+			</div>
+		</div>
+	 <hr><br>
+	 <div class="row">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+			<h4 style="text-align: justify;"><b>"Becoming a front end developer is a good long-term career change. The career offers great job security, job mobility, and as you'll see next, high-paying opportunities and flexibility."</b></h4>
+			<h5	>- Linus Torvalds.</h5>
+		</div>
+	</div>
+</section><br>
+
+<footer class="bg-dark">
+	<div class="row">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+			<h4>@Feel amazing while using it. All Copy Rights Reserved. </h4>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
